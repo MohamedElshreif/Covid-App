@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(250, 250, 250);
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  padding: 35px;
+}
+.Img {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+  .Img {
+    margin-bottom: 50px;
+    width: 75%;
+  }
+}
